@@ -3,9 +3,14 @@
 
 const pokemons = ["Pikachu", "Eevee", "Joltik"]
 
-window.alert("WHO'S THAT POKEMON?!")
+ window.alert("WHO'S THAT POKEMON?!")
 
 const randomPokemons = Math.floor(Math.random() * pokmeons.length);//returns a random character 
+
+
+
+const answer = pokemons[randomPokemons]
+console.log("Answer: ", answer)
 
 
 console.log(randomPokemons)
